@@ -7,11 +7,7 @@
     <title>Tessel Garage Door Controller</title>
 </head>
 <body>
-<header>
-    <h1>Tessel Garage Door Controller</h1>
-</header>
-<p>Tap or click the 'Push Garage Door Button' button below to 'push' the remote garage door button. The app doesn't know anything about the current position of the door (up or down), so all it can do is push the button remotely and hope for the best.</p>
-<button onclick="pushRemoteButton()">Push Garage Door Button</button>
+<button onclick="pushRemoteButton()" style="height: max-content; size: 300px; padding-inline: 50px; padding-bottom: 100px;">Türe Öffnen</button>
 <script type="text/javascript">
     function pushRemoteButton() {
         // Create a new XHR for communicating with the Tessel device

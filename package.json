@@ -1,15 +1,18 @@
 {
-  "name": "Tessel garage door controller",
-  "version": "0.0.1",
-  "description": "Tessel garage door controller",
-  "main": "server.js",
+  "name": "tessel-garage-door-controller",
+  "version": "0.0.0",
+  "description": "tessel 2 Garage Door Controller",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "www.github.com/johnwargo/tessel_garage_door_controller",
+  "repository": "git://github.com/johnwargo/tessel-garage-door-controller.git",
   "keywords": [
-    "Garage door"
+    "Tessel"
   ],
   "license": "MIT",
-  "readme": "A simple Tessel 2-based garage door controller"
+  "readme": "A bare bones Tessel 2 blinky script.",
+  "dependencies": {
+    "relay-mono": "^0.1.3"
+  }
 }
